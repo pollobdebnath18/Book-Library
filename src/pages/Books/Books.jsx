@@ -1,8 +1,8 @@
-import { Suspense, useState } from "react";
+import { Suspense } from "react";
 import Book from "./../Book/Book";
 
 const Books = ({ data }) => {
-  const [books, setBooks] = useState([]);
+  // const [books, setBooks] = useState([]);
 
   //data load system-1 using useEffect
   // useEffect(()=>{
